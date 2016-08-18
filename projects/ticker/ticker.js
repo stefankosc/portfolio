@@ -21,7 +21,7 @@
         name: 'World'
     }));
 
-    $.get('/links.json', function(data) {
+    $.get('links.json', function(data) {
         //do something with data
         insertLinksFromJSON(data);
         step();
